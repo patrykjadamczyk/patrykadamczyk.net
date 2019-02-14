@@ -1,29 +1,29 @@
 @mixin module($module)
 {
-    .MODULE__#{module}
+    .MODULE__#{$module}
     {
-        @content;
+        @content
     }
 }
 @mixin block($block)
 {
     .#{$block}
     {
-        @content;
+        @content
     }
 }
 @mixin element($element)
 {
     &__#{$element}
     {
-        @content;
+        @content
     }
 }
 @mixin modifier($modifier)
 {
     &--#{$modifier}
     {
-        @content;
+        @content
     }
 }
 /*
@@ -33,27 +33,27 @@
 {
     @include module($mod)
     {
-        @content;
+        @content
     }
 }
 @mixin b($b)
 {
     @include block($b)
     {
-        @content;
+        @content
     }
 }
 @mixin e($e)
 {
     @include element($e)
     {
-        @content;
+        @content
     }
 }
 @mixin m($m)
 {
     @include modifier($m)
     {
-        @content;
+        @content
     }
 }

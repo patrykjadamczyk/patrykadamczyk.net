@@ -6,9 +6,11 @@
 import debug from './debug';
 import api from './api';
 import redux from './redux';
+import language from './language';
 
 export default {
     debug,
     api,
-    redux
+    redux,
+    language
 }

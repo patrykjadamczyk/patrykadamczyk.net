@@ -1,0 +1,20 @@
+// SCSS Tools Import
+@import '../../../styles/functions/index.scss';
+// SCSS Module Configuration Variables
+// SCSS Module for Page
+@include mod("Page")
+{
+    .component__languageswitcher
+    {
+        span:last-child
+        {
+            .component__languageswitcher__lang__caret
+            {
+                &:last-of-type
+                {
+                    display: none;
+                }
+            }
+        }
+    }
+}
