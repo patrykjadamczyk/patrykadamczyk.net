@@ -1,0 +1,11 @@
+/* TEAM */
+Your title: Patryk Adamczyk
+Site: patrykadamczyk@patrykadamczyk.net
+Twitter: @PatrykJAdamczyk
+Location: Łódź, Poland
+
+/* SITE */
+Last update: 2019/02/14
+Standards: HTML5, CSS3
+Components: React
+Software: Visual Studio Code, Sass, Git
