@@ -1,0 +1,88 @@
+// Base Variables
+:root
+{
+    // Bootstrap
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+:root
+{
+    --theme-primary: #6200ee;
+    --theme-secondary: #018786;
+    --theme-background: #fff;
+    --theme-surface: #fff;
+    --theme-error: #b00020;
+    --theme-on-primary: #fff;
+    --theme-on-secondary: #fff;
+    --theme-on-surface: #000;
+    --theme-on-error: #fff;
+    --theme-text-primary-on-background: rgba(0, 0, 0, 0.87);
+    --theme-text-secondary-on-background: rgba(0, 0, 0, 0.54);
+    --theme-text-hint-on-background: rgba(0, 0, 0, 0.38);
+    --theme-text-disabled-on-background: rgba(0, 0, 0, 0.38);
+    --theme-text-icon-on-background: rgba(0, 0, 0, 0.38);
+    --theme-text-primary-on-light: rgba(0, 0, 0, 0.87);
+    --theme-text-secondary-on-light: rgba(0, 0, 0, 0.54);
+    --theme-text-hint-on-light: rgba(0, 0, 0, 0.38);
+    --theme-text-disabled-on-light: rgba(0, 0, 0, 0.38);
+    --theme-text-icon-on-light: rgba(0, 0, 0, 0.38);
+    --theme-text-primary-on-dark: white;
+    --theme-text-secondary-on-dark: rgba(255, 255, 255, 0.7);
+    --theme-text-hint-on-dark: rgba(255, 255, 255, 0.5);
+    --theme-text-disabled-on-dark: rgba(255, 255, 255, 0.5);
+    --theme-text-icon-on-dark: rgba(255, 255, 255, 0.5);
+    --theme-layout-grid-margin-desktop: 24px;
+    --theme-layout-grid-gutter-desktop: 24px;
+    --theme-layout-grid-column-width-desktop: 72px;
+    --theme-layout-grid-margin-tablet: 16px;
+    --theme-layout-grid-gutter-tablet: 16px;
+    --theme-layout-grid-column-width-tablet: 72px;
+    --theme-layout-grid-margin-phone: 16px;
+    --theme-layout-grid-gutter-phone: 16px;
+    --theme-layout-grid-column-width-phone: 72px;
+}
+:root
+{
+    --theme-primary: #1976d2;
+    --theme-secondary: #2e7d32;
+    --theme-background: #60ad5e;
+    --theme-surface: #63a4ff;
+    --theme-on-primary: #fff;
+    --theme-on-secondary: #fff;
+    --theme-on-surface: #000;
+    --theme-text-muted: #e0e0e0;
+    --theme-secondary-dark: #005005;
+}
+// Overrides
+:root
+{
+    --theme-background: #424242;
+}
+// Imports
+@import './theme/Base.scss';

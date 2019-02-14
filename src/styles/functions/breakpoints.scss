@@ -1,0 +1,11 @@
+@mixin mq($breakpoint)
+{
+    @media screen and (min-width: var($breakpoint))
+    {
+        @content;
+    }
+}
+@mixin col($num: 1)
+{
+    width: ((100vw / 12) * $num);
+}

@@ -1,0 +1,36 @@
+// SCSS Tools Import
+@import '../../styles/functions/index.scss';
+// SCSS Module Configuration Variables
+$aside-width: 256px;
+// SCSS Module for Page
+%container
+{
+    width: 100vw !important;
+    min-height: 100vh !important;
+}
+%block
+{
+    float: left;
+}
+.page
+{
+    @extend %container;
+}
+.container
+{
+    @extend %container;
+    display: flex;
+}
+.aside
+{
+    @extend %block;
+    width: $aside-width;
+    position: fixed;
+}
+.content
+{
+    @extend %block;
+    position: relative;
+    width: 100%;
+    margin-left: $aside-width;
+}

@@ -1,0 +1,59 @@
+@mixin module($module)
+{
+    .MODULE__#{module}
+    {
+        @content;
+    }
+}
+@mixin block($block)
+{
+    .#{$block}
+    {
+        @content;
+    }
+}
+@mixin element($element)
+{
+    &__#{$element}
+    {
+        @content;
+    }
+}
+@mixin modifier($modifier)
+{
+    &--#{$modifier}
+    {
+        @content;
+    }
+}
+/*
+ * Shorthands
+ */
+@mixin mod($mod)
+{
+    @include module($mod)
+    {
+        @content;
+    }
+}
+@mixin b($b)
+{
+    @include block($b)
+    {
+        @content;
+    }
+}
+@mixin e($e)
+{
+    @include element($e)
+    {
+        @content;
+    }
+}
+@mixin m($m)
+{
+    @include modifier($m)
+    {
+        @content;
+    }
+}
