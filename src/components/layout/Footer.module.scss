@@ -7,5 +7,42 @@
     width: 100%;
     clear: both;
     background-color: var(--theme-secondary, #2e7d32);
-    color: var(--theme-on-secondary, #fff)
+    color: var(--theme-on-secondary, #fff);
+    h5
+    {
+        font-size: 1.64rem;
+        line-height: 110%;
+        margin: 1.0933333333rem 0 .656rem 0;
+        font-weight: 400;
+    }
+}
+.footerrow
+{
+    justify-content: space-between;
+}
+.footercol
+{
+    &:nth-child(1)
+    {
+        padding-left: 15px;
+    }
+    &:nth-child(2)
+    {
+        padding-right: 15px;
+    }
+}
+.footer-contact
+{
+    ul
+    {
+        padding-left: 0;
+        list-style-type: none;
+    }
+    a,
+    a:hover,
+    a:visited
+    {
+        color: #fff;
+        text-decoration: none;
+    }
 }

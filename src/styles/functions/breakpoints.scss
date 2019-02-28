@@ -9,3 +9,7 @@
 {
     width: ((100vw / 12) * $num);
 }
+@mixin colp($num: 1)
+{
+    width: ((100% / 12) * $num);
+}

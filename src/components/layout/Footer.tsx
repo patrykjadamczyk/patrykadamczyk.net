@@ -8,14 +8,14 @@ export default class Footer extends Component {
   render() {
     return (
       <footer className={classnames(ComponentStyles.footer, (new BEM).block("Page").element("footer").get())}>
-        <div>
-            <div>
+        <div className={classnames(ComponentStyles.footerrow, "row")}>
+            <div className={classnames(ComponentStyles.footercol, ComponentStyles["footer-contact"], "col col-5")}>
                 <h5>Patryk Adamczyk</h5>
                 <p>
                     Jestem programistą i webdeveloperem. Mam dużo ambitnych pomysłów które może kiedyś zmienią podejście do programowania i wygody programowania. Nie przedłużając zapraszam na moją ciągle rozwijającą się stronę internetową gdzie mam zamiar się dzielić moimi pasjami do programowania, nowych technologii oraz fotografii.
                 </p>
             </div>
-            <div>
+            <div className={classnames(ComponentStyles.footercol, ComponentStyles["footer-contact"], "col col-5")}>
                 <h5>
                     Kontakt
                 </h5>

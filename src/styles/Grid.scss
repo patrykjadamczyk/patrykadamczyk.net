@@ -1,0 +1,42 @@
+// Breakpoints
+@import './functions/breakpoints.scss';
+.row
+{
+    display: flex;
+}
+// Grid Classes
+@for $i from 1 through 12
+{
+    .col-#{$i}
+    {
+        @include colp($i);
+    }
+    @include mq(--breakpoint-sm)
+    {
+        .col-sm-#{$i}
+        {
+            @include colp($i);
+        }
+    }
+    @include mq(--breakpoint-md)
+    {
+        .col-md-#{$i}
+        {
+            @include colp($i);
+        }
+    }
+    @include mq(--breakpoint-lg)
+    {
+        .col-lg-#{$i}
+        {
+            @include colp($i);
+        }
+    }
+    @include mq(--breakpoint-xl)
+    {
+        .col-xl-#{$i}
+        {
+            @include colp($i);
+        }
+    }
+}

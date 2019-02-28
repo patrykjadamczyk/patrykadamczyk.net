@@ -4,7 +4,7 @@ import packageJSON from '../package.json';
 import Index from './components/app/pages/Index';
 import './styles/Theme.scss';
 import './styles/App.scss';
-// import '@fortawesome/fontawesome-free/all.min.css';
+import '@fortawesome/fontawesome-free/css/all.css';
 export default class App extends Component {
   render() {
     console.debug(`Patryk Adamczyk Portfolio v${packageJSON.version}`);
