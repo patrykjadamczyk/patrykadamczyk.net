@@ -1,0 +1,11 @@
+// SCSS Tools Import
+@import '../../styles/functions/index.scss';
+// SCSS Module Configuration Variables
+// SCSS Module for Page
+.footer
+{
+    width: 100%;
+    clear: both;
+    background-color: var(--theme-secondary, #2e7d32);
+    color: var(--theme-on-secondary, #fff)
+}

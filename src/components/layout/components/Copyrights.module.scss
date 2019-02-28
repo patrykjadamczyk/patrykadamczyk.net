@@ -1,0 +1,15 @@
+// SCSS Tools Import
+@import '../../../styles/functions/index.scss';
+// SCSS Module Configuration Variables
+// SCSS Module for Page
+.copyrights
+{
+    width: 100%;
+    clear: both;
+    background-color: var(--theme-secondary-dark, #005005);
+    padding: 2vh 0;
+    
+    margin: 0 auto;
+    text-align: center;
+    color: var(--theme-text-muted, #fff);
+}

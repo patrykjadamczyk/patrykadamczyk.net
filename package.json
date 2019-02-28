@@ -16,6 +16,7 @@
         "url": "https://github.com/patrykjadamczyk/patrykadamczyk.net/issues"
     },
     "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.7.2",
         "@types/classnames": "^2.2.7",
         "@types/jest": "24.0.4",
         "@types/node": "11.9.3",

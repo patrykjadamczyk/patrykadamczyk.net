@@ -1,0 +1,10 @@
+// SCSS Tools Import
+@import '../../styles/functions/index.scss';
+// SCSS Module Configuration Variables
+$header-height: 64px;
+// SCSS Module for Page
+.main
+{
+    margin-top: 64px;
+    color: var(--theme-on-primary, #fff);
+}
